@@ -1,11 +1,10 @@
 <?php
-
-class wrapoperatorInfo
+class wrap_operatorInfo
 {
     function info()
     {
         return array(
-            'Name' => "Wrap Operator",
+            'Name' => "wrap_operator",
             'Version' => "",
             'Copyright' => "Copyright (C) 2006 Zurgutt",
             'Author' => "Zurgutt",
@@ -13,5 +12,4 @@ class wrapoperatorInfo
         );
     }
 }
-
 ?>
