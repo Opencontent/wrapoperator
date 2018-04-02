@@ -8,10 +8,10 @@
         $re = "^s*.{10,10}[^.?!]+[.?!]+s*";
         $out = "";
         for($i = 0; $i < $max; $i++) {
-            if(ereg($re, $data, $match)) {
+            if(preg_match($re, $data, $match)) {
                 //if a sentence is found, take it out of $data and add it to $out
                 $out .= $match[0];
-                $data = ereg_replace($re, "", $data);
+                $data = preg_replace($re, "", $data);
             }
             else {
                 $i = $max;

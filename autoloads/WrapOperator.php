@@ -21,7 +21,7 @@ class WrapOperator
     /*!
       Constructor, does nothing by default.
     */
-    function WrapOperator()
+    function __construct()
     {
     }
 
